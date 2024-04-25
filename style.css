@@ -5,3 +5,50 @@
     margin: 20px auto;
     object-fit: contain;
 }
+
+.card{
+    height: 300px;
+}
+
+.card-title{
+    font-size: 17px;
+}
+
+.overlay-menu{
+    background-color: #222;
+    opacity: .7;
+    height: 100vh;
+    width: 0%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow-x: hidden;
+    transition: width 1.3s linear;
+}
+.mobile-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.fa-circle-xmark{
+    position: absolute;
+    color: aliceblue;
+    right: 40px;
+    top: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.mobile-nav a{
+    color: #dedede;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.aktiv{
+    width: 100%;
+}
